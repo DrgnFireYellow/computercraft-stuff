@@ -1,3 +1,12 @@
+-- Created by DrgnFireYellow
+-- This program is licensed under the GNU General Public License V3 and is provided with no warranty.
+
+-- Change this to match your server!
+local SYSTEM_NAME = "subway"
+
+
+
+
 local function printCentered(monitor, text, y)
     local width, _ = monitor.getSize()
     monitor.setCursorPos(math.ceil((width-#text)/2), y)

@@ -1,3 +1,6 @@
+-- Created by DrgnFireYellow
+-- This program is licensed under the GNU General Public License V3 and is provided with no warranty.
+
 -- Change this to match your server!
 local SYSTEM_NAME = "subway"
 
