@@ -18,6 +18,8 @@ local reader = peripheral.wrap("bottom")
 local gate_relay = peripheral.find("redstone_relay")
 
 peripheral.find("modem", rednet.open)
+
+sleep(2)
 local serverID = rednet.lookup("subwayAuthority", SYSTEM_NAME)
 
 

@@ -34,6 +34,8 @@ local printer = peripheral.find("printer")
 monitor.setTextScale(1)
 
 rednet.open("front")
+
+sleep(2)
 local serverID = rednet.lookup("subwayAuthority", SYSTEM_NAME)
 
 print("Found server with ID " .. tostring(serverID))
